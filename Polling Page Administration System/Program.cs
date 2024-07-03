@@ -7,6 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 
+builder.Services.AddDbContext<PollsContext>(options =>
+    {
+        options.UseSqlServer(builder.Configuration.GetConnectionString("PollingSystem"));
+    });
 
 var app = builder.Build();
 
