@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Polling_Page_Administration_System
 build_property.RootNamespace = Polling_Page_Administration_System
@@ -18,12 +26,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\interview\Polling Page Administration System\Polling-Page-Administration-System\Polling Page Administration System
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Clients/LastPoll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xMYXN0UG9sbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Clients/ThankYou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xUaGFua1lvdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Polls/AddQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9sbHNcQWRkUXVlc3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Polls/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9sbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Polls/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9sbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Polls/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9sbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Questions/AddAnswer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXEFkZEFuc3dlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Shared/Error.cshtml]

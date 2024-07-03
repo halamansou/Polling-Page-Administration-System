@@ -1,8 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Polling_Page_Administration_System.Models
 {
-    public class PollsContext : DbContext
+    public class PollsContext : IdentityDbContext
     {
         public PollsContext(DbContextOptions<PollsContext> options) : base(options) { }
 
@@ -12,6 +15,8 @@ namespace Polling_Page_Administration_System.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Question>()
                 .HasOne(q => q.Poll)
                 .WithMany(p => p.Questions)
@@ -23,4 +28,7 @@ namespace Polling_Page_Administration_System.Models
                 .HasForeignKey(a => a.QuestionId);
         }
     }
+
+
+
 }

@@ -1,0 +1,22 @@
+﻿@model Polling_Page_Administration_System.Models.Poll
+
+<h2>@Model.Title</h2>
+
+<form asp-action="SubmitAnswer">
+    <input type="hidden" name="pollId" value="@Model.Id" />
+    @foreach (var question in Model.Questions)
+    {
+        <div>
+            <h3>@question.Text</h3>
+            @foreach (var answer in question.Answers)
+            {
+                <div>
+                    <input type="radio" name="answerId" value="@answer.Id" /> @answer.Text
+                </div>
+            }
+        </div>
+    }
+    <div>
+        <input type="submit" value="Submit" class="btn btn-primary" />
+    </div>
+</form>

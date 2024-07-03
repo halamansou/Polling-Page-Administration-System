@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Polling_Page_Administration_System.Models.Poll>
+
+<h2>Polls</h2>
+
+<p>
+    <a href="@Url.Action("Create")">Create New Poll</a>
+</p>
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th></th>
+    </tr>
+
+    @foreach (var poll in Model)
+    {
+        <tr>
+            <td>@poll.Title</td>
+            <td>
+                <a href="@Url.Action("Details", new { id = poll.Id })">Details</a>
+            </td>
+        </tr>
+    }
+</table>
