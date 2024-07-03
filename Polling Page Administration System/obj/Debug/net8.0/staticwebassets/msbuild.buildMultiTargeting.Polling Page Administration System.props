@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Polling Page Administration System.props" />
+</Project>
