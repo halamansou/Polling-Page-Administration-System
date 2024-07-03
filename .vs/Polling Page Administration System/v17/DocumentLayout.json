@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\",
+  "WorkspaceRootPath": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling page administration system\\polling page administration system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|solutionrelative:polling page administration system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling page administration system\\polling page administration system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling-page-administration-system\\polling page administration system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|solutionrelative:polling page administration system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling page administration system\\polling page administration system\\models\\pollscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|solutionrelative:polling page administration system\\models\\pollscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling-page-administration-system\\polling page administration system\\models\\poll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|solutionrelative:polling page administration system\\models\\poll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling page administration system\\polling page administration system\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|solutionrelative:polling page administration system\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling page administration system\\polling page administration system\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling-page-administration-system\\polling page administration system\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|solutionrelative:polling page administration system\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling page administration system\\polling page administration system\\models\\poll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|solutionrelative:polling page administration system\\models\\poll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling-page-administration-system\\polling page administration system\\models\\pollscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|solutionrelative:polling page administration system\\models\\pollscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling-page-administration-system\\polling page administration system\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|solutionrelative:polling page administration system\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|f:\\interview\\polling page administration system\\polling-page-administration-system\\polling page administration system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0686109-A948-4AFA-BFB4-91CD39015D4A}|Polling Page Administration System\\Polling Page Administration System.csproj|solutionrelative:polling page administration system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Program.cs",
+              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Program.cs",
               "RelativeDocumentMoniker": "Polling Page Administration System\\Program.cs",
-              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Program.cs",
+              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Program.cs",
               "RelativeToolTip": "Polling Page Administration System\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T10:23:48.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PollsContext.cs",
-              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Models\\PollsContext.cs",
+              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Models\\PollsContext.cs",
               "RelativeDocumentMoniker": "Polling Page Administration System\\Models\\PollsContext.cs",
-              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Models\\PollsContext.cs",
+              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Models\\PollsContext.cs",
               "RelativeToolTip": "Polling Page Administration System\\Models\\PollsContext.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAswBoAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA6wBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T10:10:11.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Answer.cs",
-              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Models\\Answer.cs",
+              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Models\\Answer.cs",
               "RelativeDocumentMoniker": "Polling Page Administration System\\Models\\Answer.cs",
-              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Models\\Answer.cs",
+              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Models\\Answer.cs",
               "RelativeToolTip": "Polling Page Administration System\\Models\\Answer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAgwAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T10:09:29.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Question.cs",
-              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Models\\Question.cs",
+              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Models\\Question.cs",
               "RelativeDocumentMoniker": "Polling Page Administration System\\Models\\Question.cs",
-              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Models\\Question.cs",
+              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Models\\Question.cs",
               "RelativeToolTip": "Polling Page Administration System\\Models\\Question.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T10:08:54.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Poll.cs",
-              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Models\\Poll.cs",
+              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Models\\Poll.cs",
               "RelativeDocumentMoniker": "Polling Page Administration System\\Models\\Poll.cs",
-              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Models\\Poll.cs",
+              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Models\\Poll.cs",
               "RelativeToolTip": "Polling Page Administration System\\Models\\Poll.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T10:08:11.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\appsettings.json",
+              "DocumentMoniker": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\appsettings.json",
               "RelativeDocumentMoniker": "Polling Page Administration System\\appsettings.json",
-              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\appsettings.json",
+              "ToolTip": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\appsettings.json",
               "RelativeToolTip": "Polling Page Administration System\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-07-03T10:06:56.247Z",
               "EditorCaption": ""

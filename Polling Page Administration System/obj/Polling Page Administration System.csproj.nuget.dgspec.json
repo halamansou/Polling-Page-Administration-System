@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System.csproj": {}
+    "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Polling Page Administration System.csproj": {}
   },
   "projects": {
-    "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System.csproj": {
+    "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Polling Page Administration System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System.csproj",
+        "projectUniqueName": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Polling Page Administration System.csproj",
         "projectName": "Polling Page Administration System",
-        "projectPath": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System.csproj",
+        "projectPath": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\Polling Page Administration System.csproj",
         "packagesPath": "C:\\Users\\Hala\\.nuget\\packages\\",
-        "outputPath": "F:\\interview\\Polling Page Administration System\\Polling Page Administration System\\Polling Page Administration System\\obj\\",
+        "outputPath": "F:\\interview\\Polling Page Administration System\\Polling-Page-Administration-System\\Polling Page Administration System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hala\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,9 +46,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "EntityFramework": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.5.1, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

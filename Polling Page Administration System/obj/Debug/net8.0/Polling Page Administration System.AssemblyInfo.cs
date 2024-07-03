@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Polling Page Administration System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+958f29e1779b4df9dc6c306166d125c8d64c9472")]
 [assembly: System.Reflection.AssemblyProductAttribute("Polling Page Administration System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Polling Page Administration System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
