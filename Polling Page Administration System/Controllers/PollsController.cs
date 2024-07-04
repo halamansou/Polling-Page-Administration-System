@@ -42,6 +42,25 @@ namespace Polling_Page_Administration_System.Controllers
 
         }
 
+        public IActionResult Details(int id)
+        {
+            var poll = _context.Polls
+                .Include(p => p.Questions)
+                .ThenInclude(q => q.Answers)
+                .FirstOrDefault(p => p.Id == id);
+
+            if (poll == null)
+            {
+                return NotFound();
+            }
+
+            return View(poll);
+        }
+
+
+
 
     }
+
 }
+

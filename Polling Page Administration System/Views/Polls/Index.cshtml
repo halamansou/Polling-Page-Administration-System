@@ -102,8 +102,11 @@
                         </table>
                     </td>
                     <td>
-                        <a href="@Url.Action("AddQuestion", new { id = poll.Id })" class="btn btn-info">Add Question</a>
+
+                        <a href="@Url.Action("Create", "Questions", new { pollId = poll.Id })" class="btn btn-info">Add Question</a>
+                        <a href="@Url.Action("Details", new { id = poll.Id })" class="btn btn-info">Details</a>
                     </td>
+
                 </tr>
             }
         </tbody>

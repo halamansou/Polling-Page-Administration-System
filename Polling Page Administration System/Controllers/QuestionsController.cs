@@ -13,24 +13,27 @@ namespace Polling_Page_Administration_System.Controllers
             _context = context;
         }
 
-        public IActionResult AddAnswer(int questionId)
+        public IActionResult Create(int pollId)
         {
-            ViewBag.QuestionId = questionId;
-            return View();
+            var model = new Question { PollId = pollId };
+            return View(model);
         }
 
         [HttpPost]
-        public IActionResult AddAnswer(Answer answer)
+        public IActionResult Create(Question question)
         {
-            if (ModelState.IsValid)
+            if (question.Text !=null)
             {
-                _context.Answers.Add(answer);
+                _context.Questions.Add(question);
                 _context.SaveChanges();
-                return RedirectToAction("Details", "Polls", new { id = answer.Question.PollId });
+                return RedirectToAction("Details", "Polls", new { id = question.PollId });
             }
-            ViewBag.QuestionId = answer.QuestionId;
-            return View(answer);
+
+            return View(question);
         }
+
+
+
 
 
     }
