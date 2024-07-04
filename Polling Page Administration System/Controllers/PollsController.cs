@@ -19,8 +19,13 @@ namespace Polling_Page_Administration_System.Controllers
 
         public IActionResult Index()
         {
-            return View(_context.Polls.ToList());
+            var polls = _context.Polls
+                                .Include(p => p.Questions)
+                                .ThenInclude(q => q.Answers)
+                                .ToList();
+            return View(polls);
         }
+
 
         public IActionResult Create()
         {
@@ -30,47 +35,13 @@ namespace Polling_Page_Administration_System.Controllers
         [HttpPost]
         public IActionResult Create(Poll poll)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Polls.Add(poll);
-                _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(poll);
+            _context.Polls.Add(poll);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+
+
         }
 
-        public IActionResult Details(int id)
-        {
-            var poll = _context.Polls
-                .Include(p => p.Questions)
-                .ThenInclude(q => q.Answers)
-                .FirstOrDefault(p => p.Id == id);
 
-            if (poll == null)
-            {
-                return NotFound();
-            }
-
-            return View(poll);
-        }
-
-        public IActionResult AddQuestion(int pollId)
-        {
-            ViewBag.PollId = pollId;
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult AddQuestion(Question question)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Questions.Add(question);
-                _context.SaveChanges();
-                return RedirectToAction("Details", new { id = question.PollId });
-            }
-            ViewBag.PollId = question.PollId;
-            return View(question);
-        }
     }
 }

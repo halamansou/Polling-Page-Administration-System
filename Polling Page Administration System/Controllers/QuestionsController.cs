@@ -31,5 +31,7 @@ namespace Polling_Page_Administration_System.Controllers
             ViewBag.QuestionId = answer.QuestionId;
             return View(answer);
         }
+
+
     }
 }
