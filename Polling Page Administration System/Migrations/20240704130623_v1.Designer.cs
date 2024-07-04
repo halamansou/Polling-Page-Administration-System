@@ -12,8 +12,8 @@ using Polling_Page_Administration_System.Models;
 namespace Polling_Page_Administration_System.Migrations
 {
     [DbContext(typeof(PollsContext))]
-    [Migration("20240703123627_v2")]
-    partial class v2
+    [Migration("20240704130623_v1")]
+    partial class v1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -249,6 +249,49 @@ namespace Polling_Page_Administration_System.Migrations
                     b.ToTable("Answers");
                 });
 
+            modelBuilder.Entity("Polling_Page_Administration_System.Models.Client", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Clients");
+                });
+
+            modelBuilder.Entity("Polling_Page_Administration_System.Models.ClientAnswer", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AnswerId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("AnsweredAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ClientId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AnswerId");
+
+                    b.HasIndex("ClientId");
+
+                    b.ToTable("ClientAnswers");
+                });
+
             modelBuilder.Entity("Polling_Page_Administration_System.Models.Poll", b =>
                 {
                     b.Property<int>("Id")
@@ -350,6 +393,25 @@ namespace Polling_Page_Administration_System.Migrations
                     b.Navigation("Question");
                 });
 
+            modelBuilder.Entity("Polling_Page_Administration_System.Models.ClientAnswer", b =>
+                {
+                    b.HasOne("Polling_Page_Administration_System.Models.Answer", "Answer")
+                        .WithMany()
+                        .HasForeignKey("AnswerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Polling_Page_Administration_System.Models.Client", "Client")
+                        .WithMany("ClientAnswers")
+                        .HasForeignKey("ClientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Answer");
+
+                    b.Navigation("Client");
+                });
+
             modelBuilder.Entity("Polling_Page_Administration_System.Models.Question", b =>
                 {
                     b.HasOne("Polling_Page_Administration_System.Models.Poll", "Poll")
@@ -359,6 +421,11 @@ namespace Polling_Page_Administration_System.Migrations
                         .IsRequired();
 
                     b.Navigation("Poll");
+                });
+
+            modelBuilder.Entity("Polling_Page_Administration_System.Models.Client", b =>
+                {
+                    b.Navigation("ClientAnswers");
                 });
 
             modelBuilder.Entity("Polling_Page_Administration_System.Models.Poll", b =>

@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Polling_Page_Administration_System.Models.ClientAnswer>
+
+<h2>My Previous Answers</h2>
+<ul>
+    @foreach (var clientAnswer in Model)
+    {
+        <li>
+            Question: @clientAnswer.Answer.Question.Text <br />
+            Answer: @clientAnswer.Answer.Text <br />
+            Answered At: @clientAnswer.AnsweredAt
+        </li>
+    }
+</ul>

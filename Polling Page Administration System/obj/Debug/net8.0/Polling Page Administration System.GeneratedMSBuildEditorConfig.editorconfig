@@ -34,12 +34,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2VyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Clients/LastPoll.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xMYXN0UG9sbC5jc2h0bWw=
+[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Client/Answer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEFuc3dlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Clients/ThankYou.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xUaGFua1lvdS5jc2h0bWw=
+[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Client/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Client/MyAnswers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XE15QW5zd2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/interview/Polling Page Administration System/Polling-Page-Administration-System/Polling Page Administration System/Views/Home/Index.cshtml]

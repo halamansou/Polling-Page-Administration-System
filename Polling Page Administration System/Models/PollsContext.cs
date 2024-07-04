@@ -12,6 +12,8 @@ namespace Polling_Page_Administration_System.Models
         public DbSet<Poll> Polls { get; set; }
         public DbSet<Question> Questions { get; set; }
         public DbSet<Answer> Answers { get; set; }
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<ClientAnswer> ClientAnswers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
