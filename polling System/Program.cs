@@ -44,30 +44,30 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.Use(async (context, next) =>
-{
-    if (context.User.Identity.IsAuthenticated)
-    {
-        var userManager = context.RequestServices.GetRequiredService<UserManager<IdentityUser>>();
-        var user = await userManager.GetUserAsync(context.User);
-        var roles = await userManager.GetRolesAsync(user);
+//app.Use(async (context, next) =>
+//{
+//    if (context.User.Identity.IsAuthenticated)
+//    {
+//        var userManager = context.RequestServices.GetRequiredService<UserManager<IdentityUser>>();
+//        var user = await userManager.GetUserAsync(context.User);
+//        var roles = await userManager.GetRolesAsync(user);
 
-        var requestPath = context.Request.Path.ToString().ToLower();
+//        var requestPath = context.Request.Path.ToString().ToLower();
 
-        if (roles.Contains("Admin") && !requestPath.StartsWith("/polls"))
-        {
-            context.Response.Redirect("/Polls/Index");
-            return;
-        }
-        else if (roles.Contains("User") && !requestPath.StartsWith("/client/lastpoll"))
-        {
-            context.Response.Redirect("/Client/LastPoll");
-            return;
-        }
-    }
+//        if (roles.Contains("Admin") && !requestPath.StartsWith("/polls"))
+//        {
+//            context.Response.Redirect("/Polls/Index");
+//            return;
+//        }
+//        else if (roles.Contains("User") && !requestPath.StartsWith("/client/lastpoll"))
+//        {
+//            context.Response.Redirect("/Client/LastPoll");
+//            return;
+//        }
+//    }
 
-    await next();
-});
+//    await next();
+//});
 
 app.MapControllerRoute(
     name: "default",

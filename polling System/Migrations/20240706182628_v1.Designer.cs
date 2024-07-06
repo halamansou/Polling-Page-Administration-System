@@ -12,8 +12,8 @@ using polling_System.Areas.Identity.Data;
 namespace polling_System.Migrations
 {
     [DbContext(typeof(polling_SystemContext))]
-    [Migration("20240706140241_v2")]
-    partial class v2
+    [Migration("20240706182628_v1")]
+    partial class v1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -263,8 +263,10 @@ namespace polling_System.Migrations
                     b.Property<DateTime>("AnsweredAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ClientId")
-                        .HasColumnType("int");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 

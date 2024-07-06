@@ -1,4 +1,5 @@
 ﻿@model Polling_System.Models.Poll
+
 @{
     ViewBag.Title = "Last Poll";
 }
@@ -19,10 +20,17 @@
                 </div>
             }
         }
-        <button type="submit">Submit</button>
+        <button type="submit" class=" btn btn-primary ">Submit</button>
     </form>
 }
 else
 {
     <p>Please <a asp-controller="Account" asp-action="Login">log in</a> to participate in the poll.</p>
 }
+
+<br />
+<br />
+
+<p>
+    <a href="@Url.Action("userResponses", "Client")" class="btn btn-info">View Client Answers</a>
+</p>

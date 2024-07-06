@@ -260,8 +260,10 @@ namespace polling_System.Migrations
                     b.Property<DateTime>("AnsweredAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ClientId")
-                        .HasColumnType("int");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 

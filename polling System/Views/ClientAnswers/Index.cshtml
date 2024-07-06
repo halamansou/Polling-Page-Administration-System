@@ -1,0 +1,14 @@
+﻿@model List<Polling_System.Models.UserAnswersViewModel>
+
+<h2>User Answers</h2>
+
+@foreach (var userAnswers in Model)
+{
+    <h3>@userAnswers.UserName</h3>
+    <ul>
+        @foreach (var answer in userAnswers.Answers)
+        {
+            <li>Question: @answer.QuestionText <br /> Answer: @answer.AnswerText</li>
+        }
+    </ul>
+}
