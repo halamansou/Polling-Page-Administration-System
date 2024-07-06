@@ -1,0 +1,28 @@
+﻿@model Polling_System.Models.Poll
+@{
+    ViewBag.Title = "Last Poll";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <h2>@Model.Title</h2>
+
+    <form asp-action="SubmitAnswers" method="post">
+        <input type="hidden" name="pollId" value="@Model.Id" />
+        @foreach (var question in Model.Questions)
+        {
+            <h4>@question.Text</h4>
+            @foreach (var answer in question.Answers)
+            {
+                <div>
+                    <input type="radio" name="selectedAnswers[@question.Id]" value="@answer.Id" /> @answer.Text
+                </div>
+            }
+        }
+        <button type="submit">Submit</button>
+    </form>
+}
+else
+{
+    <p>Please <a asp-controller="Account" asp-action="Login">log in</a> to participate in the poll.</p>
+}

@@ -1,0 +1,16 @@
+﻿@model Polling_System.Models.Question
+
+<h2>@Model.Text</h2>
+
+<form asp-action="Answer" method="post">
+    <input type="hidden" name="questionId" value="@Model.Id" />
+    <div>
+        @foreach (var answer in Model.Answers)
+        {
+            <div>
+                <input type="radio" name="answerId" value="@answer.Id" /> @answer.Text
+            </div>
+        }
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Answer</button>
+</form>

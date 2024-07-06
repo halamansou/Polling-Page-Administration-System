@@ -1,0 +1,25 @@
+﻿@model Polling_System.Models.Poll
+
+<h2>@Model.Title</h2>
+
+<h3>Questions</h3>
+
+<p>
+    <a href="@Url.Action("Create", "Questions", new { pollId = Model.Id })" class="btn btn-info">Add Question</a>
+</p>
+
+<ul>
+    @foreach (var question in Model.Questions)
+    {
+        <li>
+            @question.Text
+            <ul>
+                @foreach (var answer in question.Answers)
+                {
+                    <li>@answer.Text</li>
+                }
+            </ul>
+            <a href="@Url.Action("Create", "Answer", new { questionId = question.Id })">Add Answer</a>
+        </li>
+    }
+</ul>

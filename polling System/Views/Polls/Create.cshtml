@@ -1,0 +1,47 @@
+﻿@model Polling_System.Models.Poll
+
+<h2>Create Poll</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" id="submitButton" />
+    </div>
+</form>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <strong>Validation Error:</strong> Please fix the following issues:
+        <ul>
+            @foreach (var error in ViewData.ModelState["Title"].Errors)
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        // Disable submit button if Title length is 0
+        document.addEventListener('DOMContentLoaded', function () {
+            var titleInput = document.getElementById('Title');
+            var submitButton = document.getElementById('submitButton');
+
+            // Initial check on page load
+            if (titleInput.value.trim().length === 0) {
+                submitButton.disabled = true;
+            }
+
+            // Check on input change
+            titleInput.addEventListener('input', function () {
+                submitButton.disabled = titleInput.value.trim().length === 0;
+            });
+        });
+    </script>
+}
