@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "F:\\interview\\polling System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|f:\\interview\\polling system\\polling system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|solutionrelative:polling system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|f:\\interview\\polling system\\polling system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|solutionrelative:polling system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|f:\\interview\\polling system\\polling system\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|solutionrelative:polling system\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|f:\\interview\\polling system\\polling system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|solutionrelative:polling system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|f:\\interview\\polling system\\polling system\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|solutionrelative:polling system\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|f:\\interview\\polling system\\polling system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|solutionrelative:polling system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|f:\\interview\\polling system\\polling system\\controllers\\clientanswerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64643C71-37A0-4F34-9AA3-6D788684C712}|polling System\\polling System.csproj|solutionrelative:polling system\\controllers\\clientanswerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,6 +71,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\interview\\polling System\\polling System\\appsettings.json",
+              "RelativeDocumentMoniker": "polling System\\appsettings.json",
+              "ToolTip": "F:\\interview\\polling System\\polling System\\appsettings.json",
+              "RelativeToolTip": "polling System\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-07T08:34:11.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "polling System\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\interview\\polling System\\polling System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "polling System\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwBwAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T08:12:26.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "polling System\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "F:\\interview\\polling System\\polling System\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "polling System\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T08:12:18.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "polling System\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\interview\\polling System\\polling System\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "polling System\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T08:12:15.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "polling System\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "F:\\interview\\polling System\\polling System\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "polling System\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAuwDAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T08:06:53.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Program.cs",
+              "RelativeDocumentMoniker": "polling System\\Program.cs",
+              "ToolTip": "F:\\interview\\polling System\\polling System\\Program.cs",
+              "RelativeToolTip": "polling System\\Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T08:02:48.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ClientAnswersController.cs",
               "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Controllers\\ClientAnswersController.cs",
               "RelativeDocumentMoniker": "polling System\\Controllers\\ClientAnswersController.cs",
@@ -59,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "UserResponses.cshtml",
               "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Views\\Client\\UserResponses.cshtml",
               "RelativeDocumentMoniker": "polling System\\Views\\Client\\UserResponses.cshtml",
@@ -71,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Views\\Polls\\Index.cshtml",
               "RelativeDocumentMoniker": "polling System\\Views\\Polls\\Index.cshtml",
@@ -83,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "ClientController.cs",
               "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Controllers\\ClientController.cs",
               "RelativeDocumentMoniker": "polling System\\Controllers\\ClientController.cs",
@@ -95,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "UserAnswersViewModel.cs",
               "DocumentMoniker": "F:\\interview\\polling System\\polling System\\ViewModel\\UserAnswersViewModel.cs",
               "RelativeDocumentMoniker": "polling System\\ViewModel\\UserAnswersViewModel.cs",
@@ -107,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Views\\ClientAnswers\\Index.cshtml",
               "RelativeDocumentMoniker": "polling System\\Views\\ClientAnswers\\Index.cshtml",
@@ -119,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "LastPoll.cshtml",
               "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Views\\Client\\LastPoll.cshtml",
               "RelativeDocumentMoniker": "polling System\\Views\\Client\\LastPoll.cshtml",
@@ -127,12 +229,11 @@
               "RelativeToolTip": "polling System\\Views\\Client\\LastPoll.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T17:11:53.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:11:53.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "ClientAnswer.cs",
               "DocumentMoniker": "F:\\interview\\polling System\\polling System\\Models\\ClientAnswer.cs",
               "RelativeDocumentMoniker": "polling System\\Models\\ClientAnswer.cs",
